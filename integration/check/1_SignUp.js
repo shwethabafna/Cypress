@@ -1,5 +1,5 @@
 describe('Sign Up Free', function() {
-  it('Click on Sign Up Free_1', function() {
+  it('Click on Sign Up Free', function() {
     cy.visit('https://www.shaadi.com')
 
     cy.contains('Login')
@@ -10,6 +10,9 @@ describe('Sign Up Free', function() {
     cy.contains('Sign Up Free')
       .click()
       cy.wait(2000)
+      var t="se"
+      console.log("hello")
+      console.log(t)
   })
 })
 

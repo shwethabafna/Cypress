@@ -1,7 +1,7 @@
 
 describe('Reg2.0', function() {
     it('Click on Sign Up Free', function() {
-        cy.SignUp()
+    cy.SignUp()
     })
     it('Reg2.0 - Upto Next',function(){
 	/*type email*/
@@ -41,7 +41,7 @@ cy.wait(2000)
 //select Religion
 cy.get('#s2id_layer_community').click()
 cy.get('.select2-results > li').eq(1).click()
-cy.wait(5000)
+cy.wait(2000)
 
 //select MT
 cy.get('#s2id_layer_mother_tongue').click()
